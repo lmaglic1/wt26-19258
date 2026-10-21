@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Dan programiranja</title>
+</head>
+<body>
+
+    <h1>Dan programiranja u Sarajevu</h1>
+
+    <section>
+        <h2>O događaju</h2>
+
+        <p>
+            Dan programiranja je događaj namijenjen srednjoškolcima
+            i studentima koji žele naučiti više o programiranju.
+            Učesnici će se upoznati s osnovama programiranja i
+            raditi jednostavne zadatke.
+        </p>
+
+        <img
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+            alt="Mladi ljudi koji koriste računare na radionici"
+            width="400"
+        >
+
+        <p>
+            Događaj će se održati 15. novembra 2026. godine,
+            od 10 do 14 sati, na Elektrotehničkom fakultetu
+            u Sarajevu. Učešće je besplatno.
+        </p>
+
+        <h3>Osnovne informacije</h3>
+
+        <ul>
+            <li>Datum: 15. novembar 2026.</li>
+            <li>Vrijeme: 10:00–14:00</li>
+            <li>Mjesto: Sarajevo</li>
+            <li>Učešće: Besplatno</li>
+        </ul>
+
+        <p>
+            Više informacija o fakultetu možete pronaći na
+            <a href="https://www.etf.unsa.ba/">
+                stranici Elektrotehničkog fakulteta
+            </a>.
+        </p>
+    </section>
+
+    <section>
+        <h2>Program i prijava</h2>
+
+        <p>
+            Na radionici će učesnici slušati kratko predavanje,
+            rješavati zadatke i družiti se s drugim učesnicima.
+            Za učešće se potrebno prijaviti putem e-maila
+            na adresu prijava@example.com.
+        </p>
+
+        <h3>Plan događaja</h3>
+
+        <ol>
+            <li>10:00 – Uvodno predavanje</li>
+            <li>11:00 – Praktični zadaci</li>
+            <li>13:00 – Pitanja i druženje</li>
+        </ol>
+
+        <h3>Podaci o učesniku</h3>
+
+        <form>
+            <label for="ime">Ime i prezime:</label>
+            <input type="text" id="ime" name="ime">
+
+            <p>Da li ste srednjoškolac ili student?</p>
+
+            <input type="radio" id="srednja"
+                   name="status" value="srednjoskolac">
+            <label for="srednja">Srednjoškolac</label>
+
+            <input type="radio" id="student"
+                   name="status" value="student">
+            <label for="student">Student</label>
+
+            <p>
+                <input type="checkbox" id="pravila" name="pravila">
+                <label for="pravila">
+                    Pročitao/la sam informacije o događaju.
+                </label>
+            </p>
+
+            <label for="iskustvo">Iskustvo u programiranju:</label>
+
+            <select id="iskustvo" name="iskustvo">
+                <option value="bez">Nemam iskustva</option>
+                <option value="osnovno">Osnovno iskustvo</option>
+                <option value="napredno">Napredno iskustvo</option>
+            </select>
+        </form>
+    </section>
+
+</body>
+</html>
