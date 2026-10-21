@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Planiranje putovanja</title>
+</head>
+<body>
+
+    <h1>Forma za planiranje putovanja</h1>
+
+    <p>
+        Popunite formu kako bismo saznali vaše želje
+        i preferencije za putovanje.
+    </p>
+
+    <form>
+
+        <h2>Osnovni podaci</h2>
+
+        <label for="ime">Ime i prezime:</label>
+        <input type="text" id="ime" name="ime">
+
+        <h2>Prevoz</h2>
+
+        <p>Koji prevoz preferirate?</p>
+
+        <input type="radio" id="auto"
+               name="prevoz" value="automobil">
+        <label for="auto">Automobil</label>
+
+        <input type="radio" id="bus"
+               name="prevoz" value="autobus">
+        <label for="bus">Autobus</label>
+
+        <input type="radio" id="avion"
+               name="prevoz" value="avion">
+        <label for="avion">Avion</label>
+
+        <h2>Aktivnosti</h2>
+
+        <p>Koje aktivnosti vas zanimaju?</p>
+
+        <input type="checkbox" id="grad"
+               name="aktivnosti" value="razgledanje">
+        <label for="grad">Razgledanje grada</label>
+
+        <br>
+
+        <input type="checkbox" id="planina"
+               name="aktivnosti" value="planinarenje">
+        <label for="planina">Planinarenje</label>
+
+        <br>
+
+        <input type="checkbox" id="muzej"
+               name="aktivnosti" value="muzeji">
+        <label for="muzej">Posjeta muzejima</label>
+
+        <h2>Trajanje putovanja</h2>
+
+        <label for="trajanje">Koliko dugo traje putovanje?</label>
+
+        <select id="trajanje" name="trajanje">
+            <option value="vikend">Vikend</option>
+            <option value="sedmica">Jedna sedmica</option>
+            <option value="dvije-sedmice">Dvije sedmice</option>
+        </select>
+
+    </form>
+
+</body>
+</html>
